@@ -37,6 +37,7 @@ public class ConnectFour {
             setBoard(connectFourBoard, turn, column); // Setting up the board
             printBoard(connectFourBoard); // Printing the board
             winner = isWinner(connectFourBoard); // Checking if there was a winner
+
             if (winner) { // We don't want to change the player so break immediately
                 break;
             }
